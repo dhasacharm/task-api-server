@@ -15,8 +15,8 @@ Simple signup-login and crud app.. Which is using JWT login mechanism for authen
 *	BodyParser – To Parse request body for post and put requests
 *	Mongoose – ODM (Object Document Mapper) for MongoDB
 
-##Front-End-Document:
-frontend instruction given there angular,you can see github:https://github.com/dhasacharm/task-angular
+## Front-End-Document:
+  frontend instruction given there angular,you can see github:https://github.com/dhasacharm/task-angular
 
 ## API Docs :
 Check this link… (http://localhost:3000)
@@ -26,7 +26,7 @@ Check this link… (http://localhost:3000)
 Before starting node server.. Start your mongodb then install dependencies with npm install and
 run npm strat to run the node server.
 
-#####PORT:
+##### PORT:
  By default port is 3000
 
 ### API Signatures:
