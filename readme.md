@@ -16,18 +16,17 @@ Simple signup-login and crud app.. Which is using JWT login mechanism for authen
 *	Mongoose – ODM (Object Document Mapper) for MongoDB
 
 ## Front-End-Document:
-  frontend instruction given there angular,you can see github:https://github.com/dhasacharm/task-angular
-
-## API Docs :
-Check this link… (http://localhost:3000)
+  frontend documention given there ,you can see github:https://github.com/dhasacharm/task-angular
 
 
-### How To Start...
-Before starting node server.. Start your mongodb then install dependencies with npm install and
-run npm strat to run the node server.
+### How To Start server...
+Before starting node server.. Start your mongodb then install dependencies with `npm install` and
+run `npm strat` to run the node server.
 
 ##### PORT:
  By default port is 3000
+
+## API Docs :
 
 ### API Signatures:
 
