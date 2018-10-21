@@ -15,22 +15,25 @@ Simple signup-login and crud app.. Which is using JWT login mechanism for authen
 *	BodyParser – To Parse request body for post and put requests
 *	Mongoose – ODM (Object Document Mapper) for MongoDB
 
+##Front-End-Document:
+frontend instruction given there angular,you can see github:https://github.com/dhasacharm/task-angular
+
 ## API Docs :
 Check this link… (http://localhost:3000)
 
-### (Disclaimer: This is not production grade application.. Just POC)
 
 ### How To Start...
 Before starting node server.. Start your mongodb then install dependencies with npm install and
 run npm strat to run the node server.
 
-#####PORT: By default port is 3000
+#####PORT:
+ By default port is 3000
 
 ### API Signatures:
 
 ## Signup API
 
-### POST/signup
+### POST /signup
 
 ### Sample Input:
 
@@ -58,7 +61,7 @@ run npm strat to run the node server.
 
 ## Login API
 
-### POST/login
+### POST /login
 
 ### Sample Input:
 
@@ -79,7 +82,7 @@ run npm strat to run the node server.
 
 ## User Deatils API
 
-### GET/usermenu/id 
+### GET /usermenu/id 
 
 ### Sample Input:
 
@@ -102,13 +105,13 @@ run npm strat to run the node server.
 }
 ```
 
-## GET/usermenu
+## GET /usermenu
 
 ### Sample Input:
 
 ```json
 {
-{}
+"null"
 }
 ```
 
@@ -125,7 +128,7 @@ run npm strat to run the node server.
 }
 ```
 
-## PUT/usermenu/id 
+## PUT /usermenu/id 
 
 ### Sample Input:
 
@@ -148,7 +151,7 @@ run npm strat to run the node server.
     }
  ```
 
-## DELETE/usermenu/id
+## DELETE /usermenu/id
 
 ### Sample Input:
 
@@ -170,3 +173,5 @@ run npm strat to run the node server.
         "__v": 0
     }
 ```
+
+### (Disclaimer: This is not production grade application.. Just POC)
